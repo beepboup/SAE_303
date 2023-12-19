@@ -135,15 +135,29 @@ textarea {
 }
 
 .n2__content {
-  background-color: aqua;
+  width: 100%;
+  height: 115vh;
+  background-size: cover;
+  background-image: url(/dist/assets/svg/bgprintemps.svg);
 }
 .n2__title {
   display: flex;
   justify-content: center;
-  align-items: baseline;
+  align-items: center;
+  padding-top: 42rem;
+  padding-left: 13rem;
+  color: white;
   text-align: start;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+}
+.n2__info {
+  width: 100%;
+  height: 115vh;
+  background-size: cover;
+  background-image: url(/dist/assets/svg/fondvertarc.svg);
 }
 
 .n1 {
