@@ -123,15 +123,13 @@ textarea {
 :root {
   /* default */
   /* colors */
-  --neutral-black: #000000;
-  --neutral-black-light: #555555;
-  --neutral-white: #ffffff;
-  --primary-brown: #573c2f;
-  --primary-brown-light: #8f7d74;
-  --primary-red: #ea6752;
-  --primary-red-light: #f19a8c;
-  --primary-yellow: #fecf44;
-  --primary-yellow-light: #fedf82;
+  --black: #000000;
+  --white: #ffffff;
+  --beige: #F6EEDA;
+  --orange: #FF931E;
+  --red: #FE5051;
+  --bleu-marine: #344D6A;
+  --green: #85E575;
 }
 
 .n2__content {
@@ -161,10 +159,52 @@ textarea {
 }
 
 .n1 {
-  background-image: url("/SAE303-main/dist/assets/svg/bghiver.svg");
+  font-family: "Poppins", sans-serif;
 }
-.n1__red {
-  color: red;
+.n1__content {
+  text-transform: uppercase;
+  width: 100%;
+  height: 115vh;
+  background-image: url("/dist/assets/svg/bghiver.svg");
+  background-size: cover;
+  background-position: center;
+}
+.n1__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 42rem;
+  padding-left: 13rem;
+  text-align: start;
+  font-weight: 700;
+  font-size: 40px;
+  color: var(--white);
+  line-height: 50px;
+}
+.n1__yeti {
+  position: absolute;
+  left: -2rem;
+  bottom: -6rem;
+}
+.n1__info {
+  width: 100%;
+  height: 115vh;
+  background-image: url("/dist/assets/svg/fond_bleu_arc.svg");
+  background-size: cover;
+  background-position: center;
+}
+.n1__info_title {
+  font-size: 3rem;
+  font-weight: 500;
+  color: var(--beige);
+  text-align: center;
+  bottom: 10rem;
+}
+
+.yeti {
+  position: absolute;
+  left: 20rem;
+  bottom: 100rem;
 }
 
 /*# sourceMappingURL=style.css.map */
