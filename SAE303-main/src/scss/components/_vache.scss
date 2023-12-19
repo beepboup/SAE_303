@@ -1,12 +1,16 @@
 @use "../base/styles" as *;
 
 .n2{
-    
-}
-
-&__content{
+    &__content{
 }
 
 &__title{
-
+ display: flex;
+ justify-content: center;
+ align-items: baseline;
+ text-align: start;
+ font-family: 'Poppins', sans-serif;
+ font-weight: 700;
 }
+}
+
