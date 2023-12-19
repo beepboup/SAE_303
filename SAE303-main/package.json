@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "sass:w": "sass --watch src/scss/main.scss:dist/css/style.css"
+=======
+    "sass:w": "sass -w src/scss/main.scss:dist/css/style.css"
+>>>>>>> 8c92e285c6130c08967692fa68ec6f4e68aff695
   },
   "keywords": [],
   "author": "",
