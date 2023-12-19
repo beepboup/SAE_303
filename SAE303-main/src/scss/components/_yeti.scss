@@ -16,20 +16,20 @@
     }
 
     &__title {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-top: 42rem;
-        padding-left: 13rem;
-        text-align: start;
-        font-weight: 700;
-        font-size: 40px;
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        // padding-top: 42rem;
+        // padding-left: 13rem;
+        // text-align: start;
+        // font-weight: 700;
+        // font-size: 40px;
     
-        // position: absolute;
-        // bottom: -1rem;
-        // left: 22rem;
-        // font-weight: 800;
-        // font-size: 2rem;
+        position: absolute;
+        bottom: -1rem;
+        left: 22rem;
+        font-weight: 800;
+        font-size: 2rem;
         color: var(--white);
         line-height: 50px;
 
@@ -52,11 +52,108 @@
 
 
     &__info_title {
+        padding: 6rem;
         font-size: 3rem;
         font-weight: 500;
         color: var(--beige);
         text-align: center;
         bottom: 10rem;
+    }
+
+    &__assiette {
+        left: 11rem;
+        position: absolute;
+        width: 70%;
+        height: 70%;
+        z-index: 1;
+    }
+
+    &__assiette_anim {
+        bottom: -56rem;
+        left: 20rem;
+        position: absolute;
+        z-index: 2;
+
+    }
+
+
+    &__info_box {
+        background-color: var(--beige);
+        width: 23rem;
+        height: 11rem;
+    }
+
+
+
+    &__info_nb {
+        font-size: 9rem;
+        font-weight: 700;
+        color: var(--bleu-marine);
+        line-height: 124.838%; 
+        letter-spacing: -5px;
+        margin-left: 2rem;
+    }
+
+    &__info_txt {
+        color: var(--beige);
+        margin-left: 2rem;
+        margin-top: 0.5rem;
+    }
+
+
+    &__vague {
+        background-image: url("/dist/assets/svg/vague.svg");
+        width: 100%;
+        height: 115vh;
+        background-size: cover;
+        background-position: center;
+    }
+
+
+    &__poisson1 {
+        position: absolute;
+        width: 50%;
+        height: 50%;
+        left: -8rem;
+        bottom: -70rem;
+    }
+
+    &__poisson2 {
+        position: absolute;
+        width: 30%;
+        height: 30%;
+        left: 18rem;
+        bottom: -68rem;
+    }
+
+    &__vague_title {
+        position: absolute;
+        bottom: -70rem;
+        color: var(--orange);
+        font-size: 3rem;
+        margin-left: 5rem;
+    }
+
+    &__consom35 {
+    
+    }
+
+
+    &__epuisement {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__epuisement_title {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    &__epuisement_poisson {
+        width: 25%;
+        height: 25%;
     }
 }
 
@@ -65,4 +162,39 @@
     position: absolute;
     left: 20rem;
     bottom: 100rem;
+}
+
+.blue{
+    color: #C8E1FF;
+    font-weight: 800;
+}
+
+.bleu_marine {
+    color: var(--bleu-marine);
+}
+
+.red{
+    color: var(--red);
+    font-weight: 700;
+}
+
+.kg {
+    font-size: 3rem;
+
+}
+
+
+.droite {
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.gauche {
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.gauche_txt {
+    text-align: end;
+    margin-right: 2rem;
 }
