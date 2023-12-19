@@ -1,6 +1,4 @@
-@charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Damion&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap");
 /* Reset CSS */
 /* Box sizing border-box reset */
 *,
@@ -128,7 +126,19 @@ textarea {
   --neutral-black: #000000;
   --neutral-black-light: #555555;
   --neutral-white: #ffffff;
+  --primary-brown: #573c2f;
+  --primary-brown-light: #8f7d74;
+  --primary-red: #ea6752;
+  --primary-red-light: #f19a8c;
+  --primary-yellow: #fecf44;
+  --primary-yellow-light: #fedf82;
 }
 
+.n1 {
+  background-image: url("/SAE303-main/dist/assets/svg/bghiver.svg");
+}
+.n1__red {
+  color: red;
+}
 
 /*# sourceMappingURL=style.css.map */
