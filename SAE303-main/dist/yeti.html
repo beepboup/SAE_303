@@ -12,6 +12,7 @@
     <section class="n1">
         <div class="n1__content">
 
+            <!-- YETI QUI PENSE -->
             <lottie-player
             autoplay
             loop
@@ -23,19 +24,117 @@
           </lottie-player>
 
 
-            <h1 class="n1__title"> yeti voudrait </br>devenir plus fort en </br>mangeant de la viande.</h1>
+            <h1 class="n1__title"> yeti voudrait </br>devenir plus fort en </br>mangeant de la <span class="blue_marine">viande</span>.</h1>
 
 
         </div>
 
+        <!-- _____________________________________________________________________ -->
 
         <div class="n1__info">
-            <h1 class="n1__info_title">Mais quoi manger?</h1>
+            <h1 class="n1__info_title">Mais <span class="blue">quoi</span> manger?</h1>
+
+            <img class="n1__assiette" src="/dist/assets/svg/yeti_assiete.svg" alt="assiette de viandes, oeuf et poisson">
+
+            <!-- POINT D'INTERROGATION -->
+            <lottie-player
+            autoplay
+            loop
+            style="width: 50%;"
+            mode="normal"
+            class="n1__assiette_anim"
+            src="../dist/assets/anim/n2-plate_middle.lottie.json">
+           
+          </lottie-player>
+
+
+
+            <div class="n1__info_175" data-aos="fade-right">
+                <div class="n1__info_box droite">
+                    <p class="n1__info_nb">175 <span class="kg">kg</span></p>
+                </div>
+                <p class="n1__info_txt">C’est la consommation de viande</br> 
+                    actuelle par habitant chaque </br>
+                    années en France.</p>
+            </div>
+
+            <!-- METTRE EN FORME -->
+
+            <!-- <div class="n1__info_16" data-aos="fade-left">
+                <div class="n1__info_box gauche">
+                    <p class="n1__info_nb">16%</p>
+                </div>
+                <p class="n1__info_txt gauche_txt">C’est la part des Français jetant</br> 
+                    régulièrement de la viande, œufs et</br>
+                     poissons à la poubelle en 2019
+            </div>
+
+            
+
+            <div class="n1__info_1113" data-aos="fade-left">
+                <div class="n1__info_box gauche">
+                    <p class="n1__info_nb">1113<span class="kg">kg</span></p>
+                </div>
+                <p class="n1__info_txt gauche_txt">C’est la part des Français jetant</br> 
+                    régulièrement de la viande, œufs et</br>
+                     poissons à la poubelle en 2019
+            </div> -->
+
+        </div>
+
+
+        <!-- _____________________________________________________________________ -->
+
+
+
+        <div class="n1__vague">
+            <img class="n1__poisson1" src="/dist/assets/svg/poisson.svg" alt="poisson orange" data-aos="fade-down-right">
+            <img class="n1__poisson2" src="/dist/assets/svg/poissonrouge.svg" alt="poisson rouge" data-aos="fade-down-left">
+
+            <h1 class="n1__vague_title" data-aos="zoom-in-down">Du <span class="red">poisson</span> ?</h1>
+
+
+            <!-- CONSO DE POISSON FRANCE -->
+            <!-- <lottie-player
+            autoplay
+            data-aos="fade-right"
+            style="width: 50%;"
+            mode="normal"
+            class="n1__consom35"
+            src="../dist/assets/anim/consom35.lottie.json">
+           
+          </lottie-player> -->
+
+
+          <!-- 39% DE POISSON SURPECHE -->
+          <!-- <lottie-player
+          autoplay
+          data-aos="fade-right"
+          style="width: 50%;"
+          mode="normal"
+          class="n1__consom35"
+          src="../dist/assets/anim/n3_filet.lottie.json">
+         
+        </lottie-player> -->
+
+        <div class="n1__epuisement" data-aos="fade-right" data-aos-duration="2000">
+            <img class="n1__epuisement_poisson" src="/dist/assets/svg/poissons_petit1.svg" alt="petits poissons">
+            <h2 class="n1__epuisement_title">C’est l’<strong>épuisement</strong> de l’écosystème marin.</h2>
+            <img class="n1__epuisement_poisson" src="/dist/assets/svg/poissons_petit2.svg" alt="petits poissons">
+
+        </div>
+
+
 
 
         </div>
     </section>
 
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
