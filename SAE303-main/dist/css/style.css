@@ -1,149 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap");
-/* Reset CSS */
-/* Box sizing border-box reset */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+/* Error: expected "{".
+ *   ,
+ * 2 | @forward "vache";
+ *   |                 ^
+ *   '
+ *   src\scss\components\_index.scss 2:17  @use
+ *   src\scss\main.scss 2:1                root stylesheet */
 
-/* Margin and padding reset */
-html,
-body,
-div,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-code,
-em,
-img,
-small,
-strong,
-sub,
-sup,
-ul,
-ol,
-li,
-fieldset,
-form,
-label,
-legend,
-button,
-input,
-select,
-textarea {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "{".\a   \2577 \a 2 \2502  @forward "vache";\d\a   \2502                  ^\a   \2575 \a   src\\scss\\components\\_index.scss 2:17  @use\a   src\\scss\\main.scss 2:1                root stylesheet';
 }
-
-/* Typography reset */
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-size: 100%;
-  font-weight: normal;
-}
-
-/* Lists reset */
-ul,
-ol {
-  list-style: none;
-}
-
-/* Links reset */
-a {
-  text-decoration: none;
-}
-
-/* Tables reset */
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/* Input and Textarea reset */
-button,
-input,
-select,
-textarea {
-  font-size: 100%;
-}
-
-/* Reset form elements to match their parent */
-button,
-input,
-optgroup,
-select,
-textarea {
-  padding: 0;
-  line-height: inherit;
-  color: inherit;
-}
-
-/* Standardize form elements */
-button,
-input {
-  background-color: transparent;
-  border: none;
-}
-
-/* Textarea vertical alignment fix */
-textarea {
-  vertical-align: top;
-}
-
-/* Default cursor for clickable elements */
-button,
-input,
-select,
-textarea {
-  cursor: pointer;
-}
-
-/* Re-enable previously disabled hidden elements */
-[hidden] {
-  display: initial;
-}
-
-/* Optional - Add your own custom styles below this line */
-:root {
-  /* default */
-  /* colors */
-  --neutral-black: #000000;
-  --neutral-black-light: #555555;
-  --neutral-white: #ffffff;
-  --primary-brown: #573c2f;
-  --primary-brown-light: #8f7d74;
-  --primary-red: #ea6752;
-  --primary-red-light: #f19a8c;
-  --primary-yellow: #fecf44;
-  --primary-yellow-light: #fedf82;
-}
-
-.n2__content {
-  background-color: aqua;
-}
-.n2__title {
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
-  text-align: start;
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-}
-
-/*# sourceMappingURL=style.css.map */
