@@ -1,0 +1,18 @@
+@use "../base/styles" as *;
+
+.counter {
+  display: inline-flex;
+  padding: 0.625rem 1.25rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 0.9375rem;
+  border: 3px solid var(--conteur-primary-stroke);
+  background: var(--conteur-primary-bg);
+  color: var(--conteur-primary-fg);
+}
+.btn-panier__icon {
+  display: flex;
+  align-items: center;
+  fill: var(--conteur-primary-fg);
+}
