@@ -198,7 +198,15 @@
 
     &__filet {
         position: absolute;
-        width: 70%;
+        width: 160%;
+        bottom: 40%;
+
+    }
+
+
+    &__filet_txt {
+        text-align: center;
+        padding: 2rem;
     }
 
 
@@ -238,6 +246,7 @@
 
     &__progression_box {  
         position: absolute;
+        top: 0%;
         display: flex; 
         margin: 2rem;
         display: flex;    
@@ -260,9 +269,28 @@
         flex-direction: row;
     }
 
+
+
+    &__progression_info_box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    &__progression_info_txt {
+        text-align: center;
+    }
+
+
     &__60poiss {
+        position: absolute;
         width: 50%;
         aspect-ratio: 1/1;
+        top: 30%;
+        width: 70%; 
+        height: 70%;
         
     }
 
