@@ -321,7 +321,12 @@ textarea {
 }
 .n1__filet {
   position: absolute;
-  width: 70%;
+  width: 160%;
+  bottom: 40%;
+}
+.n1__filet_txt {
+  text-align: center;
+  padding: 2rem;
 }
 .n1__epuisement {
   display: flex;
@@ -351,6 +356,7 @@ textarea {
 }
 .n1__progression_box {
   position: absolute;
+  top: 0%;
   display: flex;
   margin: 2rem;
   display: flex;
@@ -369,9 +375,22 @@ textarea {
   display: flex;
   flex-direction: row;
 }
+.n1__progression_info_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.n1__progression_info_txt {
+  text-align: center;
+}
 .n1__60poiss {
+  position: absolute;
   width: 50%;
   aspect-ratio: 1/1;
+  top: 30%;
+  width: 70%;
+  height: 70%;
 }
 .n1__progression_poiss {
   width: 80%;
