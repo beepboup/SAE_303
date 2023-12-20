@@ -27,7 +27,7 @@
     
         position: absolute;
         bottom: -10%;
-        left: 22rem;
+        left: 30%;
         font-weight: 800;
         font-size: 2rem;
         color: var(--white);
@@ -38,7 +38,7 @@
     &__yeti {
         position: absolute;
         left: -2rem;
-        bottom: -6rem;
+        bottom: -7rem;
     }
 
 
@@ -151,11 +151,11 @@
     }
 
     &__vague_title {
-        position: absolute;
-        bottom: -70rem;
-        color: var(--orange);
-        font-size: 3rem;
         margin-left: 5rem;
+        position: absolute;
+        font-size: 3rem;
+        top: 35%;
+        color: var(--orange);
     }
 
 
@@ -164,25 +164,41 @@
         height: 50rem;
         width: 100vw;
         display: flex;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
         gap: 6rem;
     }
 
+
+    &__vague_info_box {
+        display: flex;
+        flex-direction:column-reverse;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 30%;
+        width: 70%; 
+        height: 70%;
+    }
+
+    &__consom35_txt {
+        text-align:center;
+        padding-top: 2rem;
+    }
+
     &__consom35 {
-        width: 50%; 
-        height: 50%;
+ 
         position: absolute;
-        top: 15rem;
-        left: 0rem;
+        margin-bottom: 70%;
+
 
     }
 
 
     &__filet {
-        // position: absolute;
+        position: absolute;
         width: 70%;
-
     }
 
 
@@ -191,6 +207,7 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        
     }
 
     &__epuisement_title {
@@ -209,10 +226,18 @@
         justify-content: center;
         align-items: center; 
         flex-direction: column;
+        background-image: url("/dist/assets/svg/bgblanc.svg");
+        position: relative;
+        width: 100%;
+        height: 115vh;
+        background-size: cover;
+        background-position: center;
+
     }
 
 
     &__progression_box {  
+        position: absolute;
         display: flex; 
         margin: 2rem;
         display: flex;    
