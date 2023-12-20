@@ -2,14 +2,23 @@
 
 .n2 {
 
-
+    font-family: 'Poppins', sans-serif;
 
     &__content1 {
         position: relative;
+        
         width: 100%;
         height: 115vh;
         background-size: cover;
         background-image: url(/dist/assets/svg/bgprintemps.svg);
+    }
+
+
+    &__vache {
+        width: 25%;
+        position: absolute;
+        left: 8rem;
+        bottom: -7rem;
     }
 
     &__content1_title {
@@ -27,42 +36,106 @@
         line-height: 125%;
     }
 
-    &__content2 {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
+    &__info {
         position: relative;
         width: 100%;
         height: 115vh;
+        background-image: url("/dist/assets/svg/fondvertarc.svg");
         background-size: cover;
-        background-image: url(/dist/assets/svg/fondvertarc.svg);
+        background-position: center;
     }
 
-    &__content2_divcenter {
+
+    &__info_content {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        transform: translateY(-10%);
+        gap: -10;
+
     }
 
-    &__content2_title {
-        font-size: 3rem;
-        font-weight: 500;
-        font-family: 'Poppins', sans-serif;
-        color: var(--beige);
-        padding-top: 0%;
-        text-align: center;
-    }
-
-    &__content2_assiette {
+    &__lait {
+        position: relative;
+        width: 100%;
+        height: 115vh;
+        background-image: url("/dist/assets/svg/bglait.svg");
+        background-size: cover;
+        background-position: center;
         display: flex;
-        justify-content: center;
-        padding-right: 5%;
-        max-width: 40%;
+        flex-direction: row;
+        justify-content: space-between;
+
     }
 
-    &__assiette_anim {
+    &__lait_gauche {
         position: absolute;
-        top: 9%;
-        left: 10%;
+        top: 30%;
+        left: -5%;
+        
+        width: 50vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    &__lait_title {
+        color: var(--bleu-marine);
+        font-size: 6rem;
+        font-weight: 700;
+        line-height: 3rem;
+        letter-spacing: -0.3rem;
+    }
+
+
+    &__lait_title2 {
+        color: var(--bleu-marine);
+        font-size:3rem;
+        font-weight: 700;
+    }
+
+
+    &__bouteille {
+        width: 30%;
+    }
+
+
+  
+
+    &__lait_droit {
+        position: absolute;
+        left: 50%;
+        top: 30%;
+
+    }
+
+
+    &__lait_txt {
+        padding-top: 5rem;
+        position: absolute;
+        color: var(--bleu-marine);
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+
+    &__lait_goutte {
+        position: absolute;
+        width: 15%;
+        left: 80%;
+        top: 5%;
+
+    }
+
+
+    &__lait_icones {
+        display: flex;
+    }
+
+
+    &__lait_icone {
+        width: 40%;
     }
 }
 
@@ -71,4 +144,13 @@
     font-weight: 800;
 }
 
-.kg {}
+.eau {
+    position: absolute;
+    left: 55%;
+}
+
+.egal {
+    position: absolute; 
+    left: 39%;
+    top: 30%;
+}
