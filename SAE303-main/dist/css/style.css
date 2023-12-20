@@ -211,6 +211,10 @@ textarea {
   position: absolute;
   z-index: 2;
 }
+.n1__info_content {
+  display: flex;
+  flex-direction: column;
+}
 .n1__info_box {
   background-color: var(--beige);
   width: 23rem;
@@ -257,6 +261,25 @@ textarea {
   font-size: 3rem;
   margin-left: 5rem;
 }
+.n1__vague_infos {
+  position: relative;
+  height: 50rem;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+}
+.n1__consom35 {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 15rem;
+  left: 0rem;
+}
+.n1__filet {
+  width: 70%;
+}
 .n1__epuisement {
   display: flex;
   flex-direction: row;
@@ -270,6 +293,52 @@ textarea {
 .n1__epuisement_poisson {
   width: 25%;
   height: 25%;
+}
+.n1__progression {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.n1__progression_box {
+  display: flex;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--beige);
+  width: 40rem;
+  height: 8rem;
+  border-radius: 100px;
+}
+.n1__progression_title {
+  color: var(--orange);
+  font-size: 40px;
+}
+.n1__progression_info {
+  display: flex;
+  flex-direction: row;
+}
+.n1__60poiss {
+  width: 50%;
+  aspect-ratio: 1/1;
+}
+.n1__progression_poiss {
+  width: 80%;
+  aspect-ratio: 1/1;
+}
+.n1__viande {
+  background-image: url("/dist/assets/svg/bgrouge.svg");
+  width: 100%;
+  height: 115vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .yeti {
