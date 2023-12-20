@@ -77,6 +77,14 @@
     }
 
 
+
+    &__info_content {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
     &__info_box {
         background-color: var(--beige);
         width: 23rem;
@@ -134,8 +142,31 @@
         margin-left: 5rem;
     }
 
+
+    &__vague_infos {
+        position: relative;
+        height: 50rem;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6rem;
+    }
+
     &__consom35 {
-    
+        width: 50%; 
+        height: 50%;
+        position: absolute;
+        top: 15rem;
+        left: 0rem;
+
+    }
+
+
+    &__filet {
+        // position: absolute;
+        width: 70%;
+
     }
 
 
@@ -155,8 +186,71 @@
         width: 25%;
         height: 25%;
     }
+
+
+    &__progression {
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        flex-direction: column;
+    }
+
+
+    &__progression_box {  
+        display: flex; 
+        margin: 2rem;
+        display: flex;    
+        justify-content: center;
+        align-items: center; 
+        background-color: var(--beige);
+        width: 40rem;
+        height: 8rem;
+        border-radius: 100px;
+
+    }
+
+    &__progression_title {
+        color: var(--orange);
+        font-size: 40px;
+    }
+
+    &__progression_info {
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__60poiss {
+        width: 50%;
+        aspect-ratio: 1/1;
+        
+    }
+
+
+    &__progression_poiss {
+        width: 80%;
+        aspect-ratio: 1/1;
+    }
+
+
+
+
+
+    &__viande {
+        background-image: url("/dist/assets/svg/bgrouge.svg");
+        width: 100%;
+        height: 115vh;
+        background-size: cover;
+        background-position: center;
+    }
 }
 
+
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
 
 .yeti {
     position: absolute;
