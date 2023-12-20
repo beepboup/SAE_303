@@ -1,31 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/dist/css/style.css">
     <title>COW</title>
 </head>
+
 <body>
-        <section class="n2">
-            <div class="n2__content">
-                <!-- lottie -->
-                <p class="n2__title">VACHE VEUT GRANDIR </br> COMME LES FLEURS AU PRINTEMPS EN </br> CONSOMMANT DES PRODUITS LAITIERS</p>
-            </div>
-            <div class="n2__info">
-                <h1 class="n2__info_title">Mais <span class="vert">quoi</span> manger?</h1>
+    <section class="n2">
+
+
+        <div class="n2__content1">
+            <!-- lottie -->
+            <p class="n2__content1_title">VACHE VEUT GRANDIR </br> COMME LES FLEURS AU PRINTEMPS EN </br> CONSOMMANT DES
+                PRODUITS
+                LAITIERS</p>
+        </div>
+
+
+        <div class="n2__content2">
+            <h1 class="n2__content2_title">Mais <span class="vert">quoi</span> manger?</h1>
+                <!-- <div class="n2__content2_238" data-aos="fade-right">
+                    <div class="n2__content2_238_boxnb">
+                        <p class="n2__content2_238_nb">238<span class="kg">kg</span></p>
+                    </div>
+                    <div class="n2__content2_238_boxtxt">
+                        <p class="n2__content2_238_txt">C’est la consommation de produits</br> laitiers actuelle par
+                            habitant</br>chaque année en France</p>
+                    </div>
+                </div> -->
+                <div class="n2__content2_divcenter">
+
+                    <img class="n2__content2_assiette" src="/dist/assets/svg/vache_assiete.svg"
+                        alt="assiette de produits laitiers">
+
+                    <!-- POINT D'INTERROGATION -->
+                    <lottie-player autoplay loop style="width: 80%;" mode="normal" class="n2__assiette_anim"
+                        src="../dist/assets/anim/n2-plate_middle.lottie.json">
+                    </lottie-player>
+                </div>
+                <!-- <div class="n2__content2_253" data-aos="fade-left">
+                    <div class="n2__content2_253_boxnb">
+                        <p class="n2__content2_253_nb">253 <span class="kg">kg</span></p>
+                    </div>
+                    <div class="n2__content2_253_boxtxt">
+                        <p class="n2__content2_253_txt">C’est la répartition des GES en KG</br>EQ CO2 (par an par
+                            personne)
+                        </p>
+                    </div>
+                </div> -->
 
             </div>
+        </div>
 
-            <img class="n2__assiette" src="/dist/assets/svg/yeti_assiete.svg"
-            alt="assiette de produits laitiers">
 
-        <!-- POINT D'INTERROGATION -->
-        <lottie-player autoplay loop style="width: 50%;" mode="normal" class="n1__assiette_anim"
-            src="../dist/assets/anim/n2-plate_middle.lottie.json">
+        <div class="n2__content3">
+        </div>
 
-        </lottie-player>
 
-        </section>
+    </section>
+
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
+
 </html>
