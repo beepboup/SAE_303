@@ -26,8 +26,8 @@
         // font-size: 40px;
     
         position: absolute;
-        bottom: -1rem;
-        left: 22rem;
+        bottom: -10%;
+        left: 30%;
         font-weight: 800;
         font-size: 2rem;
         color: var(--white);
@@ -38,11 +38,12 @@
     &__yeti {
         position: absolute;
         left: -2rem;
-        bottom: -6rem;
+        bottom: -7rem;
     }
 
 
     &__info {
+        position: relative;
         width: 100%;
         height: 115vh;
         background-image: url("/dist/assets/svg/fond_bleu_arc.svg");
@@ -60,18 +61,25 @@
         bottom: 10rem;
     }
 
+    &__assiette_content {
+        position: relative;
+    }
+
     &__assiette {
-        left: 11rem;
         position: absolute;
-        width: 70%;
-        height: 70%;
+        width: 60%;
+        height: 60%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-55%, -30%);
         z-index: 1;
     }
 
     &__assiette_anim {
-        bottom: -56rem;
-        left: 20rem;
         position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-53%, -38%);
         z-index: 2;
 
     }
@@ -81,6 +89,8 @@
     &__info_content {
         display: flex;
         flex-direction: column;
+        transform: translateY(-20%);
+        gap: -10;
 
     }
 
@@ -88,13 +98,17 @@
     &__info_box {
         background-color: var(--beige);
         width: 23rem;
-        height: 11rem;
+        height: 9rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
 
 
     &__info_nb {
-        font-size: 9rem;
+        display: flex;
+        font-size: 8rem;
         font-weight: 700;
         color: var(--bleu-marine);
         line-height: 124.838%; 
@@ -123,8 +137,8 @@
         position: absolute;
         width: 50%;
         height: 50%;
-        left: -1rem;
-        top: -1rem;
+        left: -10%;
+        top: -5%;
         
     }
 
@@ -132,16 +146,16 @@
         position: absolute;
         width: 30%;
         height: 30%;
-        left: 18rem;
-        bottom: -68rem;
+        left: 20%;
+        top: 10%;
     }
 
     &__vague_title {
-        position: absolute;
-        bottom: -70rem;
-        color: var(--orange);
-        font-size: 3rem;
         margin-left: 5rem;
+        position: absolute;
+        font-size: 3rem;
+        top: 35%;
+        color: var(--orange);
     }
 
 
@@ -150,25 +164,50 @@
         height: 50rem;
         width: 100vw;
         display: flex;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
         gap: 6rem;
     }
 
+
+    &__vague_info_box {
+        display: flex;
+        flex-direction:column-reverse;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 30%;
+        width: 70%; 
+        height: 70%;
+        padding: 2rem;
+    }
+
+    &__consom35_txt {
+        text-align:center;
+        padding-top: 2rem;
+    }
+
     &__consom35 {
-        width: 50%; 
-        height: 50%;
+ 
         position: absolute;
-        top: 15rem;
-        left: 0rem;
+        margin-bottom: 70%;
+
 
     }
 
 
     &__filet {
-        // position: absolute;
-        width: 70%;
+        position: absolute;
+        width: 160%;
+        bottom: 40%;
 
+    }
+
+
+    &__filet_txt {
+        text-align: center;
+        padding: 2rem;
     }
 
 
@@ -177,6 +216,7 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        
     }
 
     &__epuisement_title {
@@ -195,10 +235,19 @@
         justify-content: center;
         align-items: center; 
         flex-direction: column;
+        background-image: url("/dist/assets/svg/bgblanc.svg");
+        position: relative;
+        width: 100%;
+        height: 115vh;
+        background-size: cover;
+        background-position: center;
+
     }
 
 
     &__progression_box {  
+        position: absolute;
+        top: 0%;
         display: flex; 
         margin: 2rem;
         display: flex;    
@@ -221,9 +270,28 @@
         flex-direction: row;
     }
 
+
+
+    &__progression_info_box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    &__progression_info_txt {
+        text-align: center;
+    }
+
+
     &__60poiss {
+        position: absolute;
         width: 50%;
         aspect-ratio: 1/1;
+        top: 30%;
+        width: 70%; 
+        height: 70%;
         
     }
 

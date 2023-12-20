@@ -205,8 +205,8 @@ textarea {
 }
 .n1__title {
   position: absolute;
-  bottom: -1rem;
-  left: 22rem;
+  bottom: -10%;
+  left: 30%;
   font-weight: 800;
   font-size: 2rem;
   color: var(--white);
@@ -215,9 +215,10 @@ textarea {
 .n1__yeti {
   position: absolute;
   left: -2rem;
-  bottom: -6rem;
+  bottom: -7rem;
 }
 .n1__info {
+  position: relative;
   width: 100%;
   height: 115vh;
   background-image: url("/dist/assets/svg/fond_bleu_arc.svg");
@@ -232,30 +233,42 @@ textarea {
   text-align: center;
   bottom: 10rem;
 }
+.n1__assiette_content {
+  position: relative;
+}
 .n1__assiette {
-  left: 11rem;
   position: absolute;
-  width: 70%;
-  height: 70%;
+  width: 60%;
+  height: 60%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-55%, -30%);
   z-index: 1;
 }
 .n1__assiette_anim {
-  bottom: -56rem;
-  left: 20rem;
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-53%, -38%);
   z-index: 2;
 }
 .n1__info_content {
   display: flex;
   flex-direction: column;
+  transform: translateY(-20%);
+  gap: -10;
 }
 .n1__info_box {
   background-color: var(--beige);
   width: 23rem;
-  height: 11rem;
+  height: 9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .n1__info_nb {
-  font-size: 9rem;
+  display: flex;
+  font-size: 8rem;
   font-weight: 700;
   color: var(--bleu-marine);
   line-height: 124.838%;
@@ -279,41 +292,60 @@ textarea {
   position: absolute;
   width: 50%;
   height: 50%;
-  left: -1rem;
-  top: -1rem;
+  left: -10%;
+  top: -5%;
 }
 .n1__poisson2 {
   position: absolute;
   width: 30%;
   height: 30%;
-  left: 18rem;
-  bottom: -68rem;
+  left: 20%;
+  top: 10%;
 }
 .n1__vague_title {
-  position: absolute;
-  bottom: -70rem;
-  color: var(--orange);
-  font-size: 3rem;
   margin-left: 5rem;
+  position: absolute;
+  font-size: 3rem;
+  top: 35%;
+  color: var(--orange);
 }
 .n1__vague_infos {
   position: relative;
   height: 50rem;
   width: 100vw;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: 6rem;
 }
+.n1__vague_info_box {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 30%;
+  width: 70%;
+  height: 70%;
+  padding: 2rem;
+}
+.n1__consom35_txt {
+  text-align: center;
+  padding-top: 2rem;
+}
 .n1__consom35 {
-  width: 50%;
-  height: 50%;
   position: absolute;
-  top: 15rem;
-  left: 0rem;
+  margin-bottom: 70%;
 }
 .n1__filet {
-  width: 70%;
+  position: absolute;
+  width: 160%;
+  bottom: 40%;
+}
+.n1__filet_txt {
+  text-align: center;
+  padding: 2rem;
 }
 .n1__epuisement {
   display: flex;
@@ -334,8 +366,16 @@ textarea {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-image: url("/dist/assets/svg/bgblanc.svg");
+  position: relative;
+  width: 100%;
+  height: 115vh;
+  background-size: cover;
+  background-position: center;
 }
 .n1__progression_box {
+  position: absolute;
+  top: 0%;
   display: flex;
   margin: 2rem;
   display: flex;
@@ -354,9 +394,22 @@ textarea {
   display: flex;
   flex-direction: row;
 }
+.n1__progression_info_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.n1__progression_info_txt {
+  text-align: center;
+}
 .n1__60poiss {
+  position: absolute;
   width: 50%;
   aspect-ratio: 1/1;
+  top: 30%;
+  width: 70%;
+  height: 70%;
 }
 .n1__progression_poiss {
   width: 80%;
