@@ -132,12 +132,21 @@ textarea {
   --green: #85E575;
 }
 
+.n2 {
+  font-family: "Poppins", sans-serif;
+}
 .n2__content1 {
   position: relative;
   width: 100%;
   height: 115vh;
   background-size: cover;
   background-image: url(/dist/assets/svg/bgprintemps.svg);
+}
+.n2__vache {
+  width: 25%;
+  position: absolute;
+  left: 8rem;
+  bottom: -7rem;
 }
 .n2__content1_title {
   display: flex;
@@ -153,43 +162,95 @@ textarea {
   font-size: 250%;
   line-height: 125%;
 }
-.n2__content2 {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+.n2__info {
   position: relative;
   width: 100%;
   height: 115vh;
+  background-image: url("/dist/assets/svg/fondvertarc.svg");
   background-size: cover;
-  background-image: url(/dist/assets/svg/fondvertarc.svg);
+  background-position: center;
 }
-.n2__content2_divcenter {
+.n2__info_content {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  transform: translateY(-10%);
+  gap: -10;
 }
-.n2__content2_title {
-  font-size: 3rem;
-  font-weight: 500;
-  font-family: "Poppins", sans-serif;
-  color: var(--beige);
-  padding-top: 0%;
-  text-align: center;
-}
-.n2__content2_assiette {
+.n2__lait {
+  position: relative;
+  width: 100%;
+  height: 115vh;
+  background-image: url("/dist/assets/svg/bglait.svg");
+  background-size: cover;
+  background-position: center;
   display: flex;
-  justify-content: center;
-  padding-right: 5%;
-  max-width: 40%;
+  flex-direction: row;
+  justify-content: space-between;
 }
-.n2__assiette_anim {
+.n2__lait_gauche {
   position: absolute;
-  top: 9%;
-  left: 10%;
+  top: 30%;
+  left: -5%;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.n2__lait_title {
+  color: var(--bleu-marine);
+  font-size: 6rem;
+  font-weight: 700;
+  line-height: 3rem;
+  letter-spacing: -0.3rem;
+}
+.n2__lait_title2 {
+  color: var(--bleu-marine);
+  font-size: 3rem;
+  font-weight: 700;
+}
+.n2__bouteille {
+  width: 30%;
+}
+.n2__lait_droit {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+}
+.n2__lait_txt {
+  padding-top: 5rem;
+  position: absolute;
+  color: var(--bleu-marine);
+  font-size: 1rem;
+  font-weight: 500;
+}
+.n2__lait_goutte {
+  position: absolute;
+  width: 15%;
+  left: 80%;
+  top: 5%;
+}
+.n2__lait_icones {
+  display: flex;
+}
+.n2__lait_icone {
+  width: 40%;
 }
 
 .vert {
   color: #85E575;
   font-weight: 800;
+}
+
+.eau {
+  position: absolute;
+  left: 55%;
+}
+
+.egal {
+  position: absolute;
+  left: 39%;
+  top: 30%;
 }
 
 .n1 {
@@ -466,6 +527,18 @@ textarea {
 .gauche_txt {
   text-align: end;
   margin-right: 2rem;
+}
+
+.n3 {
+  font-family: "Poppins", sans-serif;
+}
+.n3__content {
+  text-transform: uppercase;
+  width: 100%;
+  height: 115vh;
+  background-image: url("/dist/assets/svg/bgete.svg");
+  background-size: cover;
+  background-position: center;
 }
 
 /*# sourceMappingURL=style.css.map */
