@@ -144,7 +144,7 @@ textarea {
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 42rem;
+  top: 78%;
   left: 30rem;
   color: white;
   text-align: start;
@@ -158,6 +158,20 @@ textarea {
   height: 115vh;
   background-size: cover;
   background-image: url(/dist/assets/svg/fondvertarc.svg);
+}
+.n2__info_title {
+  padding: 6rem;
+  font-size: 3rem;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: var(--beige);
+  text-align: center;
+  bottom: 10rem;
+}
+
+.vert {
+  color: #85E575;
+  font-weight: 800;
 }
 
 .n1 {
