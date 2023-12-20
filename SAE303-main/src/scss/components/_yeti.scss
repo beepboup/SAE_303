@@ -111,6 +111,7 @@
 
     &__vague {
         background-image: url("/dist/assets/svg/vague.svg");
+        position: relative;
         width: 100%;
         height: 115vh;
         background-size: cover;
@@ -122,8 +123,9 @@
         position: absolute;
         width: 50%;
         height: 50%;
-        left: -8rem;
-        bottom: -70rem;
+        left: -1rem;
+        top: -1rem;
+        
     }
 
     &__poisson2 {
