@@ -588,6 +588,7 @@ textarea {
   height: 115vh;
   background-size: cover;
   background-image: url(/dist/assets/svg/bgbleu.svg);
+  z-index: 1;
 }
 .n4__title {
   padding-top: 3rem;
@@ -605,11 +606,79 @@ textarea {
   font-size: 3rem;
 }
 .n4__cause {
-  position: relative;
+  top: -24%;
   width: 100%;
   height: 115vh;
   background-size: cover;
   background-image: url(/dist/assets/svg/bgarcbleu.svg);
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.n4__cause_txt {
+  padding-top: 40%;
+  font-size: 1.5rem;
+  color: var(--bleu-marine);
+  text-align: center;
+  width: 70%;
+}
+.n4__cause_icones {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  padding: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+.n4__cause_engrais {
+  width: 25%;
+}
+.n4__cause_pest {
+  width: 25%;
+}
+.n4__cause_kk {
+  width: 25%;
+}
+.n4__consequences {
+  padding: 1rem;
+  padding-top: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.n4__vache_react {
+  width: 30%;
+}
+.n4__menage_content {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.n4__menage_title {
+  font-size: 6rem;
+  color: var(--red);
+  font-weight: 700;
+}
+.n4__temp {
+  width: 35%;
+}
+
+.n5 {
+  font-family: "Poppins", sans-serif;
+}
+.n5__conseils {
+  position: relative;
+  width: 100%;
+  height: 115vh;
+  background-image: url("/dist/assets/svg/bgbeige.svg");
+  background-size: cover;
+  background-position: center;
 }
 
 /*# sourceMappingURL=style.css.map */
