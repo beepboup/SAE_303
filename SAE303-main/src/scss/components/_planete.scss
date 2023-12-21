@@ -11,6 +11,7 @@
         height: 115vh;
         background-size: cover;
         background-image: url(/dist/assets/svg/bgbleu.svg);
+        z-index: 1;
     }
 
 
@@ -37,13 +38,84 @@
 
 
     &__cause {
-        position: relative;
-        
+        top: -24%;
         width: 100%;
         height: 115vh;
         background-size: cover;
         background-image: url(/dist/assets/svg/bgarcbleu.svg);
+        z-index: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
 
     }
+
+    &__cause_txt {
+        padding-top: 40%;
+        font-size: 1.5rem;
+        color: var(--bleu-marine);
+        text-align: center;
+        width: 70%;
+    }
+
+
+    &__cause_icones {
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+        padding: 5rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__cause_engrais {
+        width: 25%;
+    }
+
+    &__cause_pest {
+        width: 25%;
+    }
+
+    &__cause_kk {
+        width: 25%;
+    }
+
+    &__consequences {
+        padding: 1rem;
+        padding-top: 5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+    }
+    
+    &__vache_react {
+        width: 30%;
+    }
+
+
+   
+    &__menage_content {
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__menage_title {
+        font-size: 6rem;
+        color: var(--red);
+        font-weight: 700;
+    }
+
+
+    &__temp {
+        width: 35%;
+    }
+
 
 }
