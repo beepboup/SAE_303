@@ -52,6 +52,70 @@
         margin-left: 2rem;
     }
 
+    &__tomate {
+        width: 100%;
+        height: 115vh;
+        background-image: url("/dist/assets/svg/bgbleu_tomates.svg");
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+
+
+    &__feuillage {
+        display: flex;
+        justify-content: space-between;
+        transform: translateY(-25%);
+        z-index: 1;
+    }
+
+    &__soleil {
+        z-index: 2;
+        position: absolute;
+        width: 20%;
+        left: 50%;
+        bottom: 40%;
+    }
+
+    &__tomate_serre {
+        position: absolute;
+        bottom: 0%;
+        width: 60%;
+
+
+    }
+
+    &__tomate_chiffre {
+        position: absolute;
+        left: 60%;
+        font-size: 3rem;
+        color: var(--red);
+        font-weight: 700;
+        line-height: 2.5rem;
+    }
+
+    &__tomate_txt1 {
+        position: absolute;
+        font-size: 1.2rem;
+        left: 38%;
+        top: 30%;
+        color: var(--white);
+        font-weight: 500;
+        width: 30%;
+        text-align: center;
+    }
+
+    
+    &__tomate_txt2 {
+        font-size: 1.2rem;
+        position: absolute;
+        left: 70%;
+        bottom: 10%;
+        color: var(--white);
+        font-weight: 500;
+        width: 20%;
+        text-align: center;
+    }
 }
 
 .marron {
