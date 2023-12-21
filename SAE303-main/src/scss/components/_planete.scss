@@ -3,6 +3,7 @@
 .n4 {
 
     font-family: 'Poppins', sans-serif;
+    color: var(--bleu-marine);
 
     &__planete {
         position: relative;
@@ -91,7 +92,7 @@
 
     }
     
-    &__vache_react {
+    &__react {
         width: 30%;
     }
 
@@ -114,8 +115,12 @@
 
 
     &__temp {
-        width: 35%;
+        width: 80%;
     }
 
 
+}
+
+.yeti_bigger {
+    width: 40%;
 }
