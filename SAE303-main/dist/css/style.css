@@ -816,6 +816,21 @@ textarea {
   display: flex;
   flex-direction: row-reverse;
 }
+.n5__yeti {
+  position: absolute;
+  right: 10%;
+  width: 130%;
+}
+.n5__lapin {
+  position: absolute;
+  width: 50%;
+  right: 40%;
+}
+.n5__vache {
+  position: absolute;
+  width: 60%;
+  left: 70%;
+}
 .n5__fin {
   position: relative;
   width: 100vw;
@@ -841,6 +856,10 @@ textarea {
 .rouge {
   background-color: var(--red);
   height: 13rem;
+}
+
+.conseils {
+  position: relative;
 }
 
 /*# sourceMappingURL=style.css.map */
