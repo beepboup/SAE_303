@@ -130,12 +130,18 @@
 
 
     &__lait_icones {
+        padding-top: 30%;
         display: flex;
     }
 
 
     &__lait_icone {
-        width: 40%;
+        width: 50%;
+    }
+
+
+    &__arrosage {
+        width: 10%;
     }
 }
 
