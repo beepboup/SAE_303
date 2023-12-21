@@ -232,10 +232,14 @@ textarea {
   top: 5%;
 }
 .n2__lait_icones {
+  padding-top: 30%;
   display: flex;
 }
 .n2__lait_icone {
-  width: 40%;
+  width: 50%;
+}
+.n2__arrosage {
+  width: 10%;
 }
 
 .vert {
@@ -252,6 +256,10 @@ textarea {
   position: absolute;
   left: 39%;
   top: 30%;
+}
+
+.viande {
+  background-color: var(--rouge);
 }
 
 .n1 {
@@ -318,7 +326,6 @@ textarea {
   display: flex;
   flex-direction: column;
   transform: translateY(-20%);
-  gap: -10;
 }
 .n1__info_box {
   background-color: var(--beige);
@@ -462,20 +469,49 @@ textarea {
   justify-content: center;
   align-items: center;
   position: relative;
+  width: 50%;
 }
 .n1__progression_info_txt {
   text-align: center;
+  width: 60%;
 }
 .n1__60poiss {
-  position: absolute;
-  width: 100%;
+  width: 40rem;
   top: 30%;
   width: 70%;
   height: 70%;
 }
+.n1__poiss {
+  width: 100%;
+}
 .n1__progression_poiss {
+  position: absolute;
+  top: 20%;
   width: 80%;
   aspect-ratio: 1/1;
+}
+.n1__poiss33 {
+  width: 50%;
+}
+.n1__progression_reconstitution {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  width: 40%;
+}
+.n1__progression_nb {
+  display: flex;
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--bleu-marine);
+  line-height: 124.838%;
+  letter-spacing: -5px;
+}
+.n1__progression_txt {
+  text-align: center;
+}
+.n1__poiss {
+  width: 50%;
 }
 .n1__viande {
   background-image: url("/dist/assets/svg/bgrouge.svg");
@@ -573,6 +609,60 @@ textarea {
   letter-spacing: -5px;
   margin-left: 2rem;
 }
+.n3__tomate {
+  width: 100%;
+  height: 115vh;
+  background-image: url("/dist/assets/svg/bgbleu_tomates.svg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.n3__feuillage {
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-25%);
+  z-index: 1;
+}
+.n3__soleil {
+  z-index: 2;
+  position: absolute;
+  width: 20%;
+  left: 50%;
+  bottom: 40%;
+}
+.n3__tomate_serre {
+  position: absolute;
+  bottom: 0%;
+  width: 60%;
+}
+.n3__tomate_chiffre {
+  position: absolute;
+  left: 60%;
+  font-size: 3rem;
+  color: var(--red);
+  font-weight: 700;
+  line-height: 2.5rem;
+}
+.n3__tomate_txt1 {
+  position: absolute;
+  font-size: 1.2rem;
+  left: 38%;
+  top: 30%;
+  color: var(--white);
+  font-weight: 500;
+  width: 30%;
+  text-align: center;
+}
+.n3__tomate_txt2 {
+  font-size: 1.2rem;
+  position: absolute;
+  left: 70%;
+  bottom: 10%;
+  color: var(--white);
+  font-weight: 500;
+  width: 20%;
+  text-align: center;
+}
 
 .marron {
   color: var(--brown);
@@ -581,6 +671,7 @@ textarea {
 
 .n4 {
   font-family: "Poppins", sans-serif;
+  color: var(--bleu-marine);
 }
 .n4__planete {
   position: relative;
@@ -649,7 +740,7 @@ textarea {
   justify-content: center;
   align-items: center;
 }
-.n4__vache_react {
+.n4__react {
   width: 30%;
 }
 .n4__menage_content {
@@ -666,7 +757,11 @@ textarea {
   font-weight: 700;
 }
 .n4__temp {
-  width: 35%;
+  width: 80%;
+}
+
+.yeti_bigger {
+  width: 40%;
 }
 
 .n5 {
@@ -675,17 +770,18 @@ textarea {
 .n5__conseils {
   position: relative;
   width: 100%;
-  height: 115vh;
-  background-image: url("/dist/assets/svg/bgbeige.svg");
+  height: 170vh;
   background-size: cover;
   background-position: center;
+  background-image: url(/dist/assets/svg/bgbeige.svg);
+  z-index: 100;
 }
 .n5__title_content {
   padding: 4rem;
-  padding-top: 11%;
+  padding-top: 10%;
   display: flex;
   flex-direction: row;
-  width: 90%;
+  width: 100%;
   justify-content: center;
   align-items: center;
 }
@@ -697,9 +793,53 @@ textarea {
 .n5__title_icones {
   width: 5%;
 }
+.n5__info {
+  padding-top: 5%;
+  gap: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+.n5__limiter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.n5__limiter_txt {
+  font-size: 1.5rem;
+  padding-left: 10%;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+}
+.n5__date {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.n5__fin {
+  position: relative;
+  width: 100vw;
+  height: 115vh;
+  background-color: var(--beige);
+  background-size: cover;
+  background-position: center;
+}
+.n5__fin_planete {
+  width: 100vw;
+}
 
 .orange {
   background-color: var(--orange);
+  height: 13rem;
+}
+
+.green {
+  background-color: var(--green);
+  height: 13rem;
+}
+
+.rouge {
+  background-color: var(--red);
   height: 13rem;
 }
 
