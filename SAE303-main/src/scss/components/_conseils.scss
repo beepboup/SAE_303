@@ -71,6 +71,23 @@
 
 
  
+    &__yeti {
+        position: absolute;
+        right: 10%;
+        width: 130%;
+    }
+
+    &__lapin {
+        position: absolute;
+        width: 50%;
+        right: 40%;
+    }
+
+    &__vache {
+        position: absolute;
+        width: 60%;
+        left: 70%;
+    }
 
 
     &__fin {
@@ -102,4 +119,8 @@
 .rouge {
     background-color: var(--red);
     height: 13rem;
+}
+
+.conseils {
+    position: relative;
 }
