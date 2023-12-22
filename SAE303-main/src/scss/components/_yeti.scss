@@ -9,7 +9,7 @@
         text-transform: uppercase;
         width: 100vw;
         height: 115vh;
-        background-image: url("/dist/assets/svg/bghiver.svg");
+        background-image: url("../sae303/dist/assets/svg/bghiver.svg");
         background-size: cover;
         background-position: center;
 
@@ -46,7 +46,7 @@
         position: relative;
         width: 100vw;
         height: 115vh;
-        background-image: url("/dist/assets/svg/fond_bleu_arc.svg");
+        background-image: url("../sae303/dist/assets/svg/fond_bleu_arc.svg");
         background-size: cover;
         background-position: center;
     }
@@ -124,7 +124,7 @@
 
 
     &__vague {
-        background-image: url("/dist/assets/svg/vague.svg");
+        background-image: url("../sae303/dist/assets/svg/vague.svg");
         position: relative;
         width: 100vw;
         height: 115vh;
@@ -267,7 +267,7 @@
     &__progression_info {
         display: flex;
         flex-direction: row;
-        // background-image: url(/dist/assets/svg/bgblanc.svg);
+        // background-image: url(../sae303/dist/assets/svg/bgblanc.svg);
         // background-color: var(--white);
         width: 100vw;
         height: 150vh;
@@ -349,7 +349,7 @@
 
 
     &__viande {
-        background-image: url("/dist/assets/svg/bgrouge.svg");
+        background-image: url("../sae303/dist/assets/svg/bgrouge.svg");
         width: 100vw;
         height: 115vh;
         background-size: cover;
