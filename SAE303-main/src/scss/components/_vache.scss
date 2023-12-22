@@ -36,6 +36,15 @@
         line-height: 125%;
     }
 
+    &__info_title {
+    padding: 6rem;
+    font-size: 3rem;
+    font-weight: 500;
+    color: var(--beige);
+    text-align: center;
+    padding-bottom: 15rem;
+    }
+
     &__info {
         position: relative;
         width: 100%;
@@ -94,6 +103,12 @@
         font-size:3rem;
         font-weight: 700;
     }
+
+
+
+    // &__assiette {
+    //     width: 20%;
+    // }
 
 
     &__bouteille {
