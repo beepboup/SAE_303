@@ -45,10 +45,19 @@
         
     }
 
+    &__info_box {
+        background-color: var(--beige);
+        width: 25rem;
+        height: 9rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
     &__limiter {
         display: flex;
         flex-direction: row;
-        justify-content: center;
         align-items: center;
     }
     
@@ -73,7 +82,7 @@
  
     &__yeti {
         position: absolute;
-        right: 10%;
+        right: 14%;
         width: 130%;
     }
 
