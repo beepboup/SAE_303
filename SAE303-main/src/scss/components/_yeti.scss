@@ -2,7 +2,6 @@
 
 .n1 {
     font-family: 'Poppins', sans-serif;
-    padding-bottom: 100%;
 
 
     &__content {
@@ -139,7 +138,7 @@
         width: 50%;
         height: 50%;
         left: -10%;
-        top: -5%;
+        top: -10%;
         
     }
 
@@ -148,14 +147,14 @@
         width: 30%;
         height: 30%;
         left: 20%;
-        top: 10%;
+        top: 5%;
     }
 
     &__vague_title {
         margin-left: 5rem;
         position: absolute;
         font-size: 3rem;
-        top: 35%;
+        top: 30%;
         color: var(--orange);
     }
 
@@ -190,7 +189,7 @@
     }
 
     &__consom35 {
- 
+        width: 70%;
         position: absolute;
         margin-bottom: 70%;
 
@@ -269,8 +268,12 @@
     &__progression_info {
         display: flex;
         flex-direction: row;
-        background-image: url(/dist/assets/svg/bgblanc.svg);
-        height: 100vh;
+        // background-image: url(/dist/assets/svg/bgblanc.svg);
+        background-color: var(--white);
+        width: 100%;
+        height: 150vh;
+        background-size: contain;
+        background-position: center;
 
     }
 
@@ -402,4 +405,14 @@
 .gauche_txt {
     text-align: end;
     margin-right: 2rem;
+}
+
+// .content {
+//     display: flex;
+//     flex-direction: column;
+// }
+
+
+.consom35 {
+         
 }
