@@ -141,7 +141,7 @@ textarea {
   width: 100%;
   height: 115vh;
   background-size: cover;
-  background-image: url(/dist/assets/svg/bgprintemps.svg);
+  background-image: url("../../dist/assets/svg/bgprintemps.svg");
 }
 .n2__vache {
   width: 25%;
@@ -175,7 +175,7 @@ textarea {
   position: relative;
   width: 100%;
   height: 115vh;
-  background-image: url("/dist/assets/svg/fondvertarc.svg");
+  background-image: url("../../dist/assets/svg/fondvertarc.svg");
   background-size: cover;
   background-position: center;
 }
@@ -189,7 +189,7 @@ textarea {
   position: relative;
   width: 100%;
   height: 115vh;
-  background-image: url("/dist/assets/svg/bglait.svg");
+  background-image: url("../../dist/assets/svg/bglait.svg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -277,7 +277,7 @@ textarea {
   text-transform: uppercase;
   width: 100vw;
   height: 115vh;
-  background-image: url("../sae303/dist/assets/svg/bghiver.svg");
+  background-image: url("../../dist/assets/svg/bghiver.svg");
   background-size: cover;
   background-position: center;
 }
@@ -299,7 +299,7 @@ textarea {
   position: relative;
   width: 100vw;
   height: 115vh;
-  background-image: url("../sae303/dist/assets/svg/fond_bleu_arc.svg");
+  background-image: url("../../dist/assets/svg/fond_bleu_arc.svg");
   background-size: cover;
   background-position: center;
 }
@@ -358,7 +358,7 @@ textarea {
   margin-top: 0.5rem;
 }
 .n1__vague {
-  background-image: url("../sae303/dist/assets/svg/vague.svg");
+  background-image: url("../../dist/assets/svg/vague.svg");
   position: relative;
   width: 100vw;
   height: 115vh;
@@ -526,7 +526,7 @@ textarea {
   width: 50%;
 }
 .n1__viande {
-  background-image: url("../sae303/dist/assets/svg/bgrouge.svg");
+  background-image: url("../../dist/assets/svg/bgrouge.svg");
   width: 100vw;
   height: 115vh;
   background-size: cover;
@@ -592,7 +592,7 @@ textarea {
   text-transform: uppercase;
   width: 100%;
   height: 115vh;
-  background-image: url("/dist/assets/svg/bgete.svg");
+  background-image: url("../../dist/assets/svg/bgete.svg");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -606,7 +606,7 @@ textarea {
   position: relative;
   width: 100%;
   height: 115vh;
-  background-image: url("/dist/assets/svg/bgrose.svg");
+  background-image: url("../../dist/assets/svg/bgrose.svg");
   background-size: cover;
   background-position: center;
 }
@@ -631,7 +631,7 @@ textarea {
 .n3__tomate {
   width: 100%;
   height: 115vh;
-  background-image: url("/dist/assets/svg/bgbleu_tomates.svg");
+  background-image: url("../../dist/assets/svg/bgbleu_tomates.svg");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -697,7 +697,7 @@ textarea {
   width: 100%;
   height: 115vh;
   background-size: cover;
-  background-image: url(/dist/assets/svg/bgbleu.svg);
+  background-image: url("../../dist/assets/svg/bgbleu.svg");
   z-index: 1;
 }
 .n4__title {
@@ -720,7 +720,7 @@ textarea {
   width: 100%;
   height: 115vh;
   background-size: cover;
-  background-image: url(/dist/assets/svg/bgarcbleu.svg);
+  background-image: url("../../dist/assets/svg/bgarcbleu.svg");
   z-index: 0;
   display: flex;
   justify-content: center;
@@ -792,7 +792,7 @@ textarea {
   height: 100vh;
   background-size: cover;
   background-position: center;
-  background-image: url(/dist/assets/svg/bgbeige.svg);
+  background-image: url("../../dist/assets/svg/bgbeige.svg");
   z-index: 100;
 }
 .n5__title_content {
