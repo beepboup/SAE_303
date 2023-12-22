@@ -264,6 +264,7 @@ textarea {
 
 .n1 {
   font-family: "Poppins", sans-serif;
+  padding-bottom: 100%;
 }
 .n1__content {
   text-transform: uppercase;
@@ -462,6 +463,8 @@ textarea {
 .n1__progression_info {
   display: flex;
   flex-direction: row;
+  background-image: url(/dist/assets/svg/bgblanc.svg);
+  height: 100vh;
 }
 .n1__progression_info_box {
   display: flex;
