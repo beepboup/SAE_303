@@ -2,6 +2,7 @@
 
 .n1 {
     font-family: 'Poppins', sans-serif;
+    padding-bottom: 100%;
 
 
     &__content {
@@ -268,6 +269,9 @@
     &__progression_info {
         display: flex;
         flex-direction: row;
+        background-image: url(/dist/assets/svg/bgblanc.svg);
+        height: 100vh;
+
     }
 
 
